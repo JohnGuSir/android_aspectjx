@@ -65,7 +65,7 @@ class AJXPlugin : Plugin<Project> {
         // 优先设置logger
         LoggerHolder.logger = project.logger
         val gradleVersion = project.gradle.gradleVersion
-        val dependencyGav = "org.aspectj:aspectjrt:1.9.7"
+        val dependencyGav = "org.aspectj:aspectjrt:1.9.3"
         logQuiet("agp version[${Version.ANDROID_GRADLE_PLUGIN_VERSION}]")
         if (GradleVersion.current() > GradleVersion.version("4.0")) {
             logQuiet("gradle version[$gradleVersion] > 4.0")

@@ -36,7 +36,7 @@ dependencies {
 
     // releases文档：https://github.com/eclipse/org.aspectj/releases
     // 因为修复多线程问题拷贝了源码类修改来覆盖，所以升级aspectjtools时要注意是否需要重新拷贝修改
-    implementation "org.aspectj:aspectjtools:1.9.7"
+    implementation "org.aspectj:aspectjtools:1.9.3"
     implementation 'com.google.code.gson:gson:2.8.9'
 
 }
@@ -83,4 +83,4 @@ publishing {
 }
 
 // 引用发布到maven插件
-apply from: 'plugin_maven_publish.gradle'
+//apply from: 'plugin_maven_publish.gradle'
